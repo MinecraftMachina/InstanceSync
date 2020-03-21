@@ -18,7 +18,7 @@ InstanceSync can
 
 ## How to Use
 
-* Downoad the [latest release](https://github.com/Vazkii/InstanceSync/releases)
+* Downoad the latest release
 * Extract the InstanceSync.jar file, as well as the .bat and .sh scripts into the root of your repository
 * Add the lines in the included .gitignore file to your repository's .gitignore
   * If your repository doesn't have a .gitignore file, just extract the included one
