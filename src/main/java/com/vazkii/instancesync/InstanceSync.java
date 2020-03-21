@@ -14,8 +14,8 @@ public final class InstanceSync {
         System.out.println("InstanceSync " + VERSION);
 
         long time = System.currentTimeMillis();
-        File dir = new File(".");
-        System.out.println("Running in " + dir.getAbsolutePath());
+        File dir = new File(".").getAbsoluteFile().getParentFile();
+        System.out.println("Running in " + dir);
 
         File instanceFile = new File(dir, "minecraftinstance.json");
         if (!instanceFile.exists()) {
