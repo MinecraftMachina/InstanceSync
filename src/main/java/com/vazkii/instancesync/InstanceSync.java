@@ -1,4 +1,4 @@
-package vazkii.instancesync;
+package com.vazkii.instancesync;
 
 import java.io.File;
 import java.io.FileReader;

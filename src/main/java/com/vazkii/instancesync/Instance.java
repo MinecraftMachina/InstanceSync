@@ -1,4 +1,4 @@
-package vazkii.instancesync;
+package com.vazkii.instancesync;
 
 public class Instance {
 

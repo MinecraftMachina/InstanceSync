@@ -1,4 +1,4 @@
-package vazkii.instancesync;
+package com.vazkii.instancesync;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -11,9 +11,9 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-import vazkii.instancesync.Instance.Addon;
-import vazkii.instancesync.Instance.Addon.AddonFile;
-import vazkii.instancesync.Instance.Scan;
+import com.vazkii.instancesync.Instance.Addon;
+import com.vazkii.instancesync.Instance.Addon.AddonFile;
+import com.vazkii.instancesync.Instance.Scan;
 
 public class DownloadManager {
 
