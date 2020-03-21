@@ -16,7 +16,11 @@ public class Instance {
 
             private String fileNameOnDisk;
             private String FileNameOnDisk;
-            public String downloadUrl;
+            private String downloadUrl;
+
+            public String getDownloadUrl() {
+                return downloadUrl.replace(" ", "%20");
+            }
 
             @Override
             public String toString() {

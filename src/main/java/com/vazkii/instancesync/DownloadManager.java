@@ -65,7 +65,7 @@ public class DownloadManager {
 
         File modFile = new File(modsDir, filenameOnDisk);
         if (!modExists(modFile))
-            download(modFile, file.downloadUrl);
+            download(modFile, file.getDownloadUrl());
     }
 
     private void download(final File target, final String downloadUrl) {
