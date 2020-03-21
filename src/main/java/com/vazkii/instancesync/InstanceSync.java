@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public final class InstanceSync {
 
-    private static final String VERSION = "1.0.2";
+    private static final String VERSION = "1.0.3";
 
     public static void main(String[] args) {
         System.out.println("InstanceSync " + VERSION);

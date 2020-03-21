@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'com.vazkii'
-version '1.0-SNAPSHOT'
+version '1.0.3-SNAPSHOT'
 
 sourceCompatibility = 1.8
 
