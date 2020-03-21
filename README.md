@@ -1,4 +1,6 @@
 # InstanceSync
+> This project is a fork of the original [InstanceSync](https://github.com/Vazkii/InstanceSync) by [Vazkii](https://github.com/Vazkii). New features include CI and fixed bugs.
+
 Git hook to allow for modpack version control without moving around jar files.  
 **Requires gson**.
 
